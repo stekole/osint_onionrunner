@@ -11,6 +11,7 @@ import random
 import subprocess
 import sys
 import time
+from elasticsearch import Elasticsearch
 
 onions         = []
 session_onions = []
